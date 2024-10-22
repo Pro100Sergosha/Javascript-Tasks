@@ -6,6 +6,7 @@ function divideTwoNums() {
   if (num1 > num2 && typeof num1 === "number" && typeof num2 === "number") {
     return num1 / num2;
   }
+  if (num2 === 0) throw new Error("You can't divide to zero!");
   throw new Error("One of the numbers is not a number!");
 }
 
