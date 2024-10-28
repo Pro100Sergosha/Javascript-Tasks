@@ -20,5 +20,5 @@ try {
   const adult = isAdult(promptAge());
   console.log(adult);
 } catch (error) {
-  console.log(error);
+  console.log(error.message);
 }

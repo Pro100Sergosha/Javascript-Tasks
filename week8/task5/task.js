@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 
 let response = new Promise((resolve, reject) => {
   setTimeout(() => {
-    if (20 >= 18) {
+    if (Number(prompt("Enter your age: ")) >= 18) {
       resolve("You are adult");
     } else {
       reject("You are not adult");
