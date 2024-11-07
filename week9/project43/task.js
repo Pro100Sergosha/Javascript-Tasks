@@ -22,12 +22,4 @@ function passwordValidator(password) {
   }
 }
 
-const pass1 = "12345";
-const pass2 = "abcdef";
-const pass3 = "abc123xyz";
-const pass4 = "1337h@xor!";
-
-console.log(passwordValidator(pass1));
-console.log(passwordValidator(pass2));
-console.log(passwordValidator(pass3));
-console.log(passwordValidator(pass4));
+console.log(passwordValidator(prompt("Enter your password: ")));

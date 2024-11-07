@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sergo",
+      "email": "prizrakgames21@mail.ru",
+      "registration_date": "2024-07-11"
+    },
+    {
+      "id": "2",
+      "name": "Anna",
+      "email": "anna99@mail.ru",
+      "registration_date": "2023-12-05"
+    },
+    {
+      "id": "3",
+      "name": "Ivan",
+      "email": "ivanov82@mail.ru",
+      "registration_date": "2024-01-20"
+    },
+    {
+      "id": "50d1",
+      "name": "Sergo",
+      "email": "prizrakgames21@gmail.com",
+      "registrationDate": "2024-07-11"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter",
+      "author": "Joanne Rowling",
+      "status": "available"
+    },
+    {
+      "id": "2",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "status": "available"
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "status": "available"
+    },
+    {
+      "id": "4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "status": "available"
+    },
+    {
+      "id": "5",
+      "title": "1984",
+      "author": "George Orwell",
+      "status": "available"
+    },
+    {
+      "id": "9263",
+      "title": "Harry Potter",
+      "author": "Joanne Rowling",
+      "status": "available"
+    }
+  ],
+  "borrowed_book": [
+    {
+      "id": "86e6",
+      "userId": "1",
+      "bookId": "9263",
+      "borrowDate": "2024-07-11",
+      "returnDate": "2025-01-01"
+    }
+  ]
+}
